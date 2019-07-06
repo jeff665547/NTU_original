@@ -1,0 +1,11 @@
+"mix mvn (0, 2)",countH_Pseudo_Perm,countG,countG_Perm,countGlobalAncova,countN_Perm,countGSEA_Category
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)15 7 8 ",0.866,0.178,0.178,0.17,0.163,0.162
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)15 8 7 ",0.832,0.168,0.169,0.162,0.157,0.156
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)7 15 8 ",0.737,0.214,0.215,0.198,0.179,0.192
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)8 15 7 ",0.741,0.203,0.202,0.189,0.171,0.189
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)7 8 15 ",0.871,0.259,0.253,0.243,0.226,0.232
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)8 7 15 ",0.888,0.259,0.258,0.24,0.228,0.228
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.1 0.3 0.5)10 10 10 ",0.859,0.212,0.213,0.203,0.184,0.191
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0 0.5)12 18 ",0.997,0.245,0.241,0.229,0.239,0.192
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0 3)27 3 ",1,1,1,1,1,0.202
+"composition:0.5 0.5 ,rho:0.1 0.9 ,probes:30,size:70,difference(0.3)30 ",0.09,0.195,0.19,0.173,0.158,0.192

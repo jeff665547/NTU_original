@@ -1,0 +1,512 @@
+upper_CI = CS + Z*((V)^(1/2))
+if (!is.na(upper_CI)){
+if (upper_CI > 1){
+upper_CI = 1
+}
+}
+allupper_CI = c(allupper_CI, upper_CI)
+lower_CI = CS - Z*((V)^(1/2))
+if (!is.na(lower_CI)){
+if (lower_CI < 0){
+lower_CI = 0
+}
+}
+alllower_CI = c(alllower_CI, lower_CI)
+riskset = riskset - perrisk
+}
+KMTable = cbind(alltime, death, allriskset, allsurvival, allCS,
+allV, allupper_CI, alllower_CI)
+colnames(KMTable) = c("Ordered_event_time", "Death", "Risk_set",
+"Survival_prob.", "Cumulative_survival_prob.",
+"Variance", "Upper", "lower")
+KMTable = as.data.frame(KMTable)
+KMTable0 = KMTable
+data = read.csv("C:/Users/jeff/Desktop/data.csv")
+data = data[data$Treatment == 0, ]
+#data = data[data$Treatment == 1, ]
+ordered_time = unique(data$Last.Observed.Time)
+Z = qnorm(0.975, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+death = c()
+riskset = nrow(data)
+CS = 1
+perVcom = 0
+allriskset = c()
+alltime = c()
+allsurvival = c()
+allCS = c()
+allV = c()
+allupper_CI = c()
+alllower_CI = c()
+for (i in 1:length(ordered_time)) {
+pertime = ordered_time[i]
+perdeath = sum(data[which(ordered_time[i] == data$Last.Observed.Time),
+2])
+perrisk = length(data[which(ordered_time[i] == data$Last.Observed.Time),
+2])
+if (perdeath == 0) {
+riskset = riskset - (perrisk)
+next
+}
+death = c(death, perdeath)
+alltime = c(alltime, pertime)
+allriskset = c(allriskset, riskset)
+survival = 1 - perdeath/riskset
+allsurvival = c(allsurvival, survival)
+CS = survival*CS
+allCS = c(allCS, CS)
+perVcom = perVcom + perdeath/(riskset*(riskset - perdeath))
+V = (CS^2)*perVcom
+allV = c(allV, V)
+upper_CI = CS + Z*((V)^(1/2))
+if (!is.na(upper_CI)){
+if (upper_CI > 1){
+upper_CI = 1
+}
+}
+allupper_CI = c(allupper_CI, upper_CI)
+lower_CI = CS - Z*((V)^(1/2))
+if (!is.na(lower_CI)){
+if (lower_CI < 0){
+lower_CI = 0
+}
+}
+alllower_CI = c(alllower_CI, lower_CI)
+riskset = riskset - perrisk
+}
+KMTable = cbind(alltime, death, allriskset, allsurvival, allCS,
+allV, allupper_CI, alllower_CI)
+colnames(KMTable) = c("Ordered_event_time", "Death", "Risk_set",
+"Survival_prob.", "Cumulative_survival_prob.",
+"Variance", "Upper", "lower")
+KMTable = as.data.frame(KMTable)
+KMTable0 = KMTable
+data1 = read.csv("C:/Users/jeff/Desktop/data.csv")
+data1 = data1[data1$Treatment == 1, ]
+ordered_time = unique(data1$Last.Observed.Time)
+Z = qnorm(0.975, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+death = c()
+riskset = nrow(data)
+CS = 1
+perVcom = 0
+allriskset = c()
+alltime = c()
+allsurvival = c()
+allCS = c()
+allV = c()
+allupper_CI = c()
+alllower_CI = c()
+for (i in 1:length(ordered_time)) {
+pertime = ordered_time[i]
+perdeath = sum(data1[which(ordered_time[i] == data1$Last.Observed.Time),
+2])
+perrisk = length(data1[which(ordered_time[i] == data1$Last.Observed.Time),
+2])
+if (perdeath == 0) {
+riskset = riskset - (perrisk)
+next
+}
+death = c(death, perdeath)
+alltime = c(alltime, pertime)
+allriskset = c(allriskset, riskset)
+survival = 1 - perdeath/riskset
+allsurvival = c(allsurvival, survival)
+CS = survival*CS
+allCS = c(allCS, CS)
+perVcom = perVcom + perdeath/(riskset*(riskset - perdeath))
+V = (CS^2)*perVcom
+allV = c(allV, V)
+upper_CI = CS + Z*((V)^(1/2))
+if (!is.na(upper_CI)){
+if (upper_CI > 1){
+upper_CI = 1
+}
+}
+allupper_CI = c(allupper_CI, upper_CI)
+lower_CI = CS - Z*((V)^(1/2))
+if (!is.na(lower_CI)){
+if (lower_CI < 0){
+lower_CI = 0
+}
+}
+alllower_CI = c(alllower_CI, lower_CI)
+riskset = riskset - perrisk
+}
+KMTable = cbind(alltime, death, allriskset, allsurvival, allCS,
+allV, allupper_CI, alllower_CI)
+colnames(KMTable) = c("Ordered_event_time", "Death", "Risk_set",
+"Survival_prob.", "Cumulative_survival_prob.",
+"Variance", "Upper", "lower")
+KMTable = as.data.frame(KMTable)
+KMTable1 = KMTable
+data = read.csv("C:/Users/jeff/Desktop/data.csv")
+data = data[data$Treatment == 0, ]
+#data = data[data$Treatment == 1, ]
+ordered_time = unique(data$Last.Observed.Time)
+Z = qnorm(0.975, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+death = c()
+riskset = nrow(data)
+CS = 1
+perVcom = 0
+allriskset = c()
+alltime = c()
+allsurvival = c()
+allCS = c()
+allV = c()
+allupper_CI = c()
+alllower_CI = c()
+for (i in 1:length(ordered_time)) {
+pertime = ordered_time[i]
+perdeath = sum(data[which(ordered_time[i] == data$Last.Observed.Time),
+2])
+perrisk = length(data[which(ordered_time[i] == data$Last.Observed.Time),
+2])
+if (perdeath == 0) {
+riskset = riskset - (perrisk)
+next
+}
+death = c(death, perdeath)
+alltime = c(alltime, pertime)
+allriskset = c(allriskset, riskset)
+survival = 1 - perdeath/riskset
+allsurvival = c(allsurvival, survival)
+CS = survival*CS
+allCS = c(allCS, CS)
+perVcom = perVcom + perdeath/(riskset*(riskset - perdeath))
+V = (CS^2)*perVcom
+allV = c(allV, V)
+upper_CI = CS + Z*((V)^(1/2))
+if (!is.na(upper_CI)){
+if (upper_CI > 1){
+upper_CI = 1
+}
+}
+allupper_CI = c(allupper_CI, upper_CI)
+lower_CI = CS - Z*((V)^(1/2))
+if (!is.na(lower_CI)){
+if (lower_CI < 0){
+lower_CI = 0
+}
+}
+alllower_CI = c(alllower_CI, lower_CI)
+riskset = riskset - perrisk
+}
+KMTable = cbind(alltime, death, allriskset, allsurvival, allCS,
+allV, allupper_CI, alllower_CI)
+colnames(KMTable) = c("Ordered_event_time", "Death", "Risk_set",
+"Survival_prob.", "Cumulative_survival_prob.",
+"Variance", "Upper", "lower")
+KMTable = as.data.frame(KMTable)
+KMTable0 = KMTable
+plot(x = c(0, KMTable1$Ordered_event_time),
+y = c(1, KMTable1$Cumulative_survival_prob.), "n",
+main = "KM Curve",
+xlim = c(0, 35), ylim = c(0, 1),
+xlab = "Time", ylab = "Survival Prob.")
+#KM curve for Trt 0
+segments(c(0, KMTable0$Ordered_event_time[-length(KMTable0$Ordered_event_time)]),
+c(1, KMTable0$Cumulative_survival_prob.[-length(KMTable0$Ordered_event_time)]),
+c(KMTable0$Ordered_event_time),
+c(1, KMTable0$Cumulative_survival_prob.[-length(KMTable0$Ordered_event_time)]),
+col = rgb(249/255, 133/255, 32/255, 1))
+segments(c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(1, KMTable0$Cumulative_survival_prob.[-1]),
+c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(KMTable0$Cumulative_survival_prob.[1], KMTable0$Cumulative_survival_prob.[-length(KMTable0$Cumulative_survival_prob.)]),
+col = rgb(249/255, 133/255, 32/255, 1))
+#CI for Trt 0
+#upper
+segments(c(0, KMTable0$Ordered_event_time[-c(length(KMTable0$Ordered_event_time)-1, length(KMTable0$Ordered_event_time))]),
+c(1, KMTable0$Upper[-c(length(KMTable0$Upper)-1, length(KMTable0$Upper))]),
+c(KMTable0$Ordered_event_time[-length(KMTable0$Ordered_event_time)]),
+c(1, KMTable0$Upper[-c(length(KMTable0$Upper)-1, length(KMTable0$Upper))]),
+lty = "dashed", col = rgb(249/255, 133/255, 32/255, 1))
+segments(c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(1, KMTable0$Upper[-1]),
+c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(KMTable0$Upper[1], KMTable0$Upper[-length(KMTable0$Upper)]),
+lty = "dashed", col = rgb(249/255, 133/255, 32/255, 1))
+#lower
+segments(c(0, KMTable0$Ordered_event_time[-c(length(KMTable0$Ordered_event_time)-1, length(KMTable0$Ordered_event_time))]),
+c(1, KMTable0$lower[-c(length(KMTable0$lower)-1, length(KMTable0$lower))]),
+c(KMTable0$Ordered_event_time[-length(KMTable0$Ordered_event_time)]),
+c(1, KMTable0$lower[-c(length(KMTable0$lower)-1, length(KMTable0$lower))]),
+lty = "dashed", col = rgb(249/255, 133/255, 32/255, 1))
+segments(c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(1, KMTable0$lower[-1]),
+c(KMTable0$Ordered_event_time[1], KMTable0$Ordered_event_time[-1]),
+c(KMTable0$lower[1], KMTable0$lower[-length(KMTable0$lower)]),
+lty = "dashed", col = rgb(249/255, 133/255, 32/255, 1))
+#KM curve for Trt 1
+segments(c(0, KMTable1$Ordered_event_time),
+c(1, KMTable1$Cumulative_survival_prob.),
+c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1], 35),
+c(1, KMTable1$Cumulative_survival_prob.),
+col = rgb(0/255, 207/255, 213/255, 1))
+segments(c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(1, KMTable1$Cumulative_survival_prob.[-1]),
+c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(KMTable1$Cumulative_survival_prob.[1], KMTable1$Cumulative_survival_prob.[-length(KMTable1$Cumulative_survival_prob.)]),
+col = rgb(0/255, 207/255, 213/255, 1))
+#CI for Trt 1
+#upper
+segments(c(0, KMTable1$Ordered_event_time),
+c(1, KMTable1$Upper),
+c(KMTable1$Ordered_event_time, 35),
+c(1, KMTable1$Upper),
+lty = "dashed", col = rgb(0/255, 207/255, 213/255, 1))
+segments(c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(1, KMTable1$Upper[-1]),
+c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(KMTable1$Upper[1], KMTable1$Upper[-length(KMTable1$Upper)]),
+lty = "dashed", col = rgb(0/255, 207/255, 213/255, 1))
+#lower
+segments(c(0, KMTable1$Ordered_event_time),
+c(1, KMTable1$lower),
+c(KMTable1$Ordered_event_time, 35),
+c(1, KMTable1$lower),
+lty = "dashed", col = rgb(0/255, 207/255, 213/255, 1))
+segments(c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(1, KMTable1$lower[-1]),
+c(KMTable1$Ordered_event_time[1], KMTable1$Ordered_event_time[-1]),
+c(KMTable1$lower[1], KMTable1$lower[-length(KMTable1$lower)]),
+lty = "dashed", col = rgb(0/255, 207/255, 213/255, 1))
+#Colorectal Cancer
+ColorectalSelectedB_p53_CN	 = read.csv("Colorectal_GPL570_p53_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_CN	 = read.csv("Colorectal_GPL570_PI3K-Akt_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_CN	 = read.csv("Colorectal_GPL570_Ras_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_TGF_beta_CN	 = read.csv("Colorectal_GPL570_TGF-beta_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_p53_unique_CN	 = read.csv("Colorectal_GPL570_p53_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_unique_CN	 = read.csv("Colorectal_GPL570_PI3K-Akt_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Wnt_CN	 = read.csv("Colorectal_GPL570_Wnt_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_unique_CN	 = read.csv("Colorectal_GPL570_Ras_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+#Real Data Analysis
+#Load Data
+setwd("C:/Users/jeff/Desktop/Study/Data/Final")
+#Colorectal Cancer
+ColorectalSelectedB_p53_CN	 = read.csv("Colorectal_GPL570_p53_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_CN	 = read.csv("Colorectal_GPL570_PI3K-Akt_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_CN	 = read.csv("Colorectal_GPL570_Ras_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_TGF_beta_CN	 = read.csv("Colorectal_GPL570_TGF-beta_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Wnt_CN	 = read.csv("Colorectal_GPL570_Wnt_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_p53_unique_CN	 = read.csv("Colorectal_GPL570_p53_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_unique_CN	 = read.csv("Colorectal_GPL570_PI3K-Akt_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_unique_CN	 = read.csv("Colorectal_GPL570_Ras_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_TGF_beta_unique_CN	 = read.csv("Colorectal_GPL570_TGF-beta_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Wnt_unique_CN	 = read.csv("Colorectal_GPL570_Wnt_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+sum(ColorectalSelectedB_Wnt_unique_CN<0)
+sum(ColorectalSelectedB_Wnt_unique_CN<1)
+ColorectalSelectedB_p53_NC	 = read.csv("Colorectal_GPL570_p53_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_NC	 = read.csv("Colorectal_GPL570_PI3K-Akt_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_NC	 = read.csv("Colorectal_GPL570_Ras_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_TGF_beta_NC	 = read.csv("Colorectal_GPL570_TGF-beta_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Wnt_NC	 = read.csv("Colorectal_GPL570_Wnt_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_p53_unique_NC	 = read.csv("Colorectal_GPL570_p53_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_PI3K_Akt_unique_NC	 = read.csv("Colorectal_GPL570_PI3K-Akt_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_TGF_beta_unique_NC	 = read.csv("Colorectal_GPL570_TGF-beta_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Wnt_unique_NC	 = read.csv("Colorectal_GPL570_Wnt_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+ColorectalSelectedB_Ras_unique_NC	 = read.csv("Colorectal_GPL570_Ras_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+sum(ColorectalSelectedB_p53_NC<0)
+sum(ColorectalSelectedB_p53_NC<1)
+sum(ColorectalSelectedB_PI3K_Akt_NC<0)
+sum(ColorectalSelectedB_PI3K_Akt_NC<1)
+sum(ColorectalSelectedB_Ras_NC<0)
+sum(ColorectalSelectedB_Ras_NC<1)
+sum(ColorectalSelectedB_TGF_beta_NC<0)
+sum(ColorectalSelectedB_TGF_beta_NC<1)
+sum(ColorectalSelectedB_Wnt_NC<0)
+sum(ColorectalSelectedB_Wnt_NC<1)
+#Leukemia
+LeukemiaSelectedA_Jak_STAT_CN	 = read.csv("Leukemia_GPL96_Jak-STAT_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_mTOR_CN	 = read.csv("Leukemia_GPL96_mTOR_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_PI3K_Akt_CN	 = read.csv("Leukemia_GPL96_PI3K-Akt_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_Wnt_CN	 = read.csv("Leukemia_GPL96_Wnt_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_Jak_STAT_unique_CN	 = read.csv("Leukemia_GPL96_Jak-STAT_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_mTOR_unique_CN	 = read.csv("Leukemia_GPL96_mTOR_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_PI3K_Akt_unique_CN	 = read.csv("Leukemia_GPL96_PI3K-Akt_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_Wnt_unique_CN	 = read.csv("Leukemia_GPL96_Wnt_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+sum(LeukemiaSelectedA_Jak_STAT_CN<0)
+sum(LeukemiaSelectedA_Jak_STAT_CN<1)
+sum(LeukemiaSelectedA_mTOR_CN<0)
+sum(LeukemiaSelectedA_mTOR_CN<1)
+sum(LeukemiaSelectedA_PI3K_Akt_CN<0)
+sum(LeukemiaSelectedA_PI3K_Akt_CN<1)
+sum(LeukemiaSelectedA_Wnt_CN<0)
+sum(LeukemiaSelectedA_Wnt_CN<1)
+sum(LeukemiaSelectedA_Jak_STAT_NC<0)
+sum(LeukemiaSelectedA_Jak_STAT_NC<1)
+LeukemiaSelectedA_Jak_STAT_NC	 = read.csv("Leukemia_GPL96_Jak-STAT_NC.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_mTOR_NC	 = read.csv("Leukemia_GPL96_mTOR_NC.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_PI3K_Akt_NC	 = read.csv("Leukemia_GPL96_PI3K-Akt_NC.csv", header = TRUE)[ ,-1]
+LeukemiaSelectedA_Wnt_NC	 = read.csv("Leukemia_GPL96_Wnt_NC.csv", header = TRUE)[ ,-1]
+sum(LeukemiaSelectedA_Jak_STAT_NC<0)
+sum(LeukemiaSelectedA_Jak_STAT_NC<1)
+sum(LeukemiaSelectedA_mTOR_NC<0)
+sum(LeukemiaSelectedA_mTOR_NC<1)
+sum(LeukemiaSelectedA_PI3K_Akt_NC<0)
+sum(LeukemiaSelectedA_PI3K_Akt_NC<1)
+sum(LeukemiaSelectedA_Wnt_NC<0)
+sum(LeukemiaSelectedA_Wnt_NC<1)
+#Lung Cancer(GPL96)
+LungSelectedA_Cell_cycle_CN 	 = read.csv("Lung_GPL96_Cell cycle_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_EGFR_CN 	 = read.csv("Lung_GPL96_EGFR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_Jak_STAT_CN 	 = read.csv("Lung_GPL96_Jak-STAT_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_mapk_CN 	 = read.csv("Lung_GPL96_mapk_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_mTOR_CN 	 = read.csv("Lung_GPL96_mTOR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_p53_CN 	 = read.csv("Lung_GPL96_p53_CN.csv", header = TRUE)[ ,-1]
+LungSelectedA_Wnt_CN 	 = read.csv("Lung_GPL96_Wnt_CN.csv", header = TRUE)[ ,-1]
+sum(LungSelectedA_Cell_cycle_CN<0)
+sum(LungSelectedA_Cell_cycle_CN<1)
+sum(LungSelectedA_EGFR_CN<0)
+sum(LungSelectedA_EGFR_CN<1)
+sum(LungSelectedA_Jak_STAT_CN<0)
+sum(LungSelectedA_Jak_STAT_CN<1)
+sum(LungSelectedA_mapk_CN<0)
+sum(LungSelectedA_mapk_CN<1)
+sum(LungSelectedA_mTOR_CN<0)
+sum(LungSelectedA_mTOR_CN<1)
+sum(LungSelectedA_p53_CN<0)
+sum(LungSelectedA_p53_CN<1)
+sum(LungSelectedA_Wnt_CN<0)
+sum(LungSelectedA_Wnt_CN<1)
+sum(LungSelectedA_Cell_cycle_NC<0)
+sum(LungSelectedA_Cell_cycle_NC<1)
+LungSelectedA_Cell_cycle_NC 	 = read.csv("Lung_GPL96_Cell cycle_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_EGFR_NC 	 = read.csv("Lung_GPL96_EGFR_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_Jak_STAT_NC 	 = read.csv("Lung_GPL96_Jak-STAT_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_mapk_NC 	 = read.csv("Lung_GPL96_mapk_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_Wnt_NC 	 = read.csv("Lung_GPL96_Wnt_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_p53_NC 	 = read.csv("Lung_GPL96_p53_NC.csv", header = TRUE)[ ,-1]
+LungSelectedA_mTOR_NC 	 = read.csv("Lung_GPL96_mTOR_NC.csv", header = TRUE)[ ,-1]
+sum(LungSelectedA_Cell_cycle_NC<0)
+sum(LungSelectedA_Cell_cycle_NC<1)
+sum(LungSelectedA_EGFR_NC<0)
+sum(LungSelectedA_EGFR_NC<1)
+sum(LungSelectedA_Jak_STAT_NC<0)
+sum(LungSelectedA_Jak_STAT_NC<1)
+sum(LungSelectedA_mapk_NC<0)
+sum(LungSelectedA_mapk_NC<1)
+sum(LungSelectedA_mTOR_NC<0)
+sum(LungSelectedA_mTOR_NC<1)
+sum(LungSelectedA_p53_NC<0)
+sum(LungSelectedA_p53_NC<1)
+sum(LungSelectedA_Wnt_NC<0)
+sum(LungSelectedA_Wnt_NC<1)
+#Lung Cancer(GPL570)
+LungSelectedB_Cell_cycle_CN 	 = read.csv("Lung_GPL570_Cell cycle_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_EGFR_CN 	 = read.csv("Lung_GPL570_EGFR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_Jak_STAT_CN 	 = read.csv("Lung_GPL570_Jak-STAT_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_mapk_CN 	 = read.csv("Lung_GPL570_mapk_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_mTOR_CN 	 = read.csv("Lung_GPL570_mTOR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_Wnt_CN 	 = read.csv("Lung_GPL570_Wnt_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_p53_CN 	 = read.csv("Lung_GPL570_p53_CN.csv", header = TRUE)[ ,-1]
+sum(LungSelectedA_Wnt_NC<0)
+#Lung Cancer(GPL570)
+LungSelectedB_Cell_cycle_CN 	 = read.csv("Lung_GPL570_Cell cycle_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_EGFR_CN 	 = read.csv("Lung_GPL570_EGFR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_Jak_STAT_CN 	 = read.csv("Lung_GPL570_Jak-STAT_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_mapk_CN 	 = read.csv("Lung_GPL570_mapk_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_mTOR_CN 	 = read.csv("Lung_GPL570_mTOR_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_p53_CN 	 = read.csv("Lung_GPL570_p53_CN.csv", header = TRUE)[ ,-1]
+LungSelectedB_Wnt_CN 	 = read.csv("Lung_GPL570_Wnt_CN.csv", header = TRUE)[ ,-1]
+sum(LungSelectedB_Cell_cycle_CN<0)
+sum(LungSelectedB_Cell_cycle_CN<1)
+sum(LungSelectedB_EGFR_CN<0)
+sum(LungSelectedB_EGFR_CN<1)
+sum(LungSelectedB_Jak_STAT_CN<0)
+sum(LungSelectedB_Jak_STAT_CN<1)
+sum(LungSelectedB_mapk_CN<0)
+sum(LungSelectedB_mapk_CN<1)
+sum(LungSelectedB_mTOR_CN<0)
+sum(LungSelectedB_mTOR_CN<1)
+sum(LungSelectedB_p53_CN<0)
+sum(LungSelectedB_p53_CN<1)
+sum(LungSelectedB_Wnt_CN<0)
+sum(LungSelectedB_Wnt_CN<1)
+LungSelectedB_Cell_cycle_NC 	 = read.csv("Lung_GPL570_Cell cycle_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_EGFR_NC 	 = read.csv("Lung_GPL570_EGFR_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_Jak_STAT_NC 	 = read.csv("Lung_GPL570_Jak-STAT_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_mapk_NC 	 = read.csv("Lung_GPL570_mapk_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_mTOR_NC 	 = read.csv("Lung_GPL570_mTOR_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_p53_NC 	 = read.csv("Lung_GPL570_p53_NC.csv", header = TRUE)[ ,-1]
+LungSelectedB_Wnt_NC 	 = read.csv("Lung_GPL570_Wnt_NC.csv", header = TRUE)[ ,-1]
+sum(LungSelectedB_Cell_cycle_NC<0)
+sum(LungSelectedB_Cell_cycle_NC<1)
+sum(LungSelectedB_EGFR_NC <0)
+sum(LungSelectedB_EGFR_NC <1)
+sum(LungSelectedB_Jak_STAT_NC <0)
+sum(LungSelectedB_Jak_STAT_NC <1)
+sum(LungSelectedB_mapk_NC <0)
+sum(LungSelectedB_mapk_NC <1)
+sum(LungSelectedB_mTOR_NC <0)
+sum(LungSelectedB_mTOR_NC <1)
+sum(LungSelectedB_p53_NC <0)
+sum(LungSelectedB_p53_NC <1)
+sum(LungSelectedB_Wnt_NC <0)
+sum(LungSelectedB_Wnt_NC <1)
+#Ovarian Cancer
+OvarianSelectedA_mTOR_mean_unique_CN	 = read.csv("Ovarian_GPL96_mTOR_mean_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_Jak_STAT_mean_unique_CN	 = read.csv("Ovarian_GPL96_Jak-STAT_mean_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_p53_mean_unique_CN	 = read.csv("Ovarian_GPL96_p53_mean_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_PI3K_Akt_mean_unique_CN	 = read.csv("Ovarian_GPL96_PI3K-Akt_mean_uniqueprobe_CN.csv", header = TRUE)[ ,-1]
+sum(OvarianSelectedA_mTOR_mean_unique_CN <0)
+sum(OvarianSelectedA_mTOR_mean_unique_CN <1)
+sum(OvarianSelectedA_Jak_STAT_mean_unique_CN <0)
+sum(OvarianSelectedA_Jak_STAT_mean_unique_CN <1)
+sum(OvarianSelectedA_p53_mean_unique_CN <0)
+sum(OvarianSelectedA_p53_mean_unique_CN <1)
+sum(OvarianSelectedA_PI3K_Akt_mean_unique_CN <0)
+sum(OvarianSelectedA_PI3K_Akt_mean_unique_CN <1)
+sum(OvarianSelectedA_mTOR_mean_unique_NC <0)
+sum(OvarianSelectedA_mTOR_mean_unique_NC <1)
+OvarianSelectedA_mTOR_mean_unique_NC	 = read.csv("Ovarian_GPL96_mTOR_mean_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_Jak_STAT_mean_unique_NC	 = read.csv("Ovarian_GPL96_Jak-STAT_mean_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_p53_mean_unique_NC	 = read.csv("Ovarian_GPL96_p53_mean_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_PI3K_Akt_mean_unique_NC	 = read.csv("Ovarian_GPL96_PI3K-Akt_mean_uniqueprobe_NC.csv", header = TRUE)[ ,-1]
+OvarianSelectedA_mTOR_mean_unique_NC
+sum(OvarianSelectedA_mTOR_mean_unique_NC <0)
+sum(OvarianSelectedA_mTOR_mean_unique_NC <1)
+sum(OvarianSelectedA_Jak_STAT_mean_unique_NC <0)
+sum(OvarianSelectedA_Jak_STAT_mean_unique_NC <1)
+sum(OvarianSelectedA_p53_mean_unique_NC <0)
+sum(OvarianSelectedA_p53_mean_unique_NC <1)
+sum(OvarianSelectedA_PI3K_Akt_mean_unique_NC <0)
+sum(OvarianSelectedA_PI3K_Akt_mean_unique_NC <1)
+read.csv("C:/Users/jeff/Desktop/Study/Data/Breast cancer/Platform_HG-U133A(GPL96)/GSE15852/raw/GSE15852_processed.csv")
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Breast cancer/Platform_HG-U133A(GPL96)/GSE15852/raw/GSE15852_processed.csv")
+sum(AA < 0)
+head(AA)
+head(AA[, 1:6])
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA ? 0)
+sum(AA > 0)
+sum(AA < 1)
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Colorectal cancer/Platform_HG-U133_Plus_2(GPL570)/GSE8671/raw/GSE8671_processed.csv")
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA < 1)
+AA = read.csv("C:\Users\jeff\Desktop\Study\Data\Leukemia\Platform_HG-U133A(GPL96)\GSE9476\raw\GSE9476_processed.csv")
+AA = AA[, -1]
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Leukemia/Platform_HG-U133A(GPL96)/GSE9476/raw/GSE9476_processed.csv")
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA < 1)
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Lung cancer/Platform_HG-U133_Plus_2(GPL570)/GDS3837 (GSE19804)/raw/GSE19804_processed.csv")
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA < 1)
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Lung cancer/Platform_HG-U133A(GPL96)/GSE7670/raw/GSE7670_processed.csv")
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA < 1)
+AA = read.csv("C:/Users/jeff/Desktop/Study/Data/Ovarian cancer/Platform_HG-U133A(GPL96)/tcga-ov/E377_13799.csv")
+head(AA)
+head(AA[, 1:6])
+AA = AA[, -1]
+sum(AA < 0)
+sum(AA < 1)
+sum(AA < 2)
+sum(AA < 3)
+sum(AA < 4)
+sum(AA < 2)
+sum(AA < 1)

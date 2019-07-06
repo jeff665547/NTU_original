@@ -1,0 +1,283 @@
+Patient.ID,Sample.ID,Disease.Free.Status,First.Pathologic.Diagnosis.Biospecimen.Acquisition.Method.Type,Neoplasm.American.Joint.Committee.on.Cancer.Clinical.Group.Stage,Neoplasm.Histologic.Grade,Person.Neoplasm.Status,Primary.Tumor.Site,Race.Category,Shortest.Dimension,Tumor.Disease.Anatomic.Site,Tissue.Source.Site,status
+TCGA.04.1331,TCGA-04-1331-01,,,,,,,,0.4,,,0
+TCGA.04.1332,TCGA-04-1332-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,4,0
+TCGA.04.1336,TCGA-04-1336-01,DiseaseFree,Tumor resection,Stage IIIB,G3,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1337,TCGA-04-1337-01,,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,4,1
+TCGA.04.1338,TCGA-04-1338-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.04.1342,TCGA-04-1342-01,,Tumor resection,Stage IV,G2,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,4,1
+TCGA.04.1343,TCGA-04-1343-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,1
+TCGA.04.1346,TCGA-04-1346-01,DiseaseFree,Tumor resection,Stage IIIC,G2,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1348,TCGA-04-1348-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.04.1349,TCGA-04-1349-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,4,1
+TCGA.04.1350,TCGA-04-1350-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.04.1351,TCGA-04-1351-01,Recurred/Progressed,Incisional Biopsy,Stage IIIC,G2,TUMOR FREE,,WHITE,0.2,Ovary,4,0
+TCGA.04.1361,TCGA-04-1361-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1364,TCGA-04-1364-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1365,TCGA-04-1365-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Left,WHITE,0.6,Ovary,4,0
+TCGA.04.1367,TCGA-04-1367-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,4,0
+TCGA.04.1369,TCGA-04-1369-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,4,1
+TCGA.04.1371,TCGA-04-1371-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.1,Ovary,4,0
+TCGA.04.1514,TCGA-04-1514-01,Recurred/Progressed,Tumor resection,Stage IIIA,G2,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,4,0
+TCGA.04.1517,TCGA-04-1517-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,1
+TCGA.04.1525,TCGA-04-1525-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,4,0
+TCGA.04.1530,TCGA-04-1530-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.04.1542,TCGA-04-1542-01,Recurred/Progressed,Tumor resection,Stage IIIB,G2,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1644,TCGA-04-1644-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.04.1646,TCGA-04-1646-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1648,TCGA-04-1648-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G2,,,WHITE,0.4,Ovary,4,0
+TCGA.04.1649,TCGA-04-1649-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1651,TCGA-04-1651-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1652,TCGA-04-1652-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Right,WHITE,0.2,Ovary,4,0
+TCGA.04.1654,TCGA-04-1654-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G2,,Bilateral,WHITE,0.3,Ovary,4,0
+TCGA.04.1655,TCGA-04-1655-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIB,G2,,Bilateral,WHITE,0.4,Ovary,4,0
+TCGA.09.1659,TCGA-09-1659-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,9,1
+TCGA.09.1664,TCGA-09-1664-01,,Tumor resection,Stage IIIC,G1,,Bilateral,WHITE,0.7,Ovary,9,0
+TCGA.09.1665,TCGA-09-1665-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Left,WHITE,0.6,Ovary,9,0
+TCGA.09.1666,TCGA-09-1666-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,9,0
+TCGA.09.1668,TCGA-09-1668-01,DiseaseFree,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,9,0
+TCGA.09.1669,TCGA-09-1669-01,DiseaseFree,Tumor resection,Stage IIIA,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,9,0
+TCGA.09.2048,TCGA-09-2048-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,9,1
+TCGA.09.2049,TCGA-09-2049-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,9,0
+TCGA.09.2051,TCGA-09-2051-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,9,0
+TCGA.09.2053,TCGA-09-2053-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.3,Ovary,9,0
+TCGA.10.0925,TCGA-10-0925-01,Recurred/Progressed,Tumor resection,Stage IIIB,G1,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,10,0
+TCGA.10.0926,TCGA-10-0926-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,10,0
+TCGA.10.0928,TCGA-10-0928-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,10,1
+TCGA.10.0930,TCGA-10-0930-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,10,0
+TCGA.10.0931,TCGA-10-0931-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,10,0
+TCGA.10.0935,TCGA-10-0935-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,10,0
+TCGA.10.0938,TCGA-10-0938-01,Recurred/Progressed,,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,10,1
+TCGA.13.0724,TCGA-13-0724-01,Recurred/Progressed,Excisional Biopsy,Stage IV,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,13,1
+TCGA.13.0727,TCGA-13-0727-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,1
+TCGA.13.0730,TCGA-13-0730-01,,Fine needle aspiration biopsy,Stage IIIC,G3,,Bilateral,WHITE,0.4,Ovary,13,1
+TCGA.13.0757,TCGA-13-0757-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,1
+TCGA.13.0758,TCGA-13-0758-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,1
+TCGA.13.0764,TCGA-13-0764-01,Recurred/Progressed,,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0791,TCGA-13-0791-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,0
+TCGA.13.0792,TCGA-13-0792-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,0
+TCGA.13.0805,TCGA-13-0805-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,0
+TCGA.13.0807,TCGA-13-0807-01,,Tumor resection,Stage IIIC,G3,,,WHITE,NA,Ovary,13,1
+TCGA.13.0883,TCGA-13-0883-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0884,TCGA-13-0884-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,13,0
+TCGA.13.0885,TCGA-13-0885-01,DiseaseFree,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,,Left,WHITE,0.4,Ovary,13,0
+TCGA.13.0886,TCGA-13-0886-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,13,0
+TCGA.13.0888,TCGA-13-0888-01,,Tumor resection,Stage IIIC,G3,TUMOR FREE,Right,WHITE,0.4,Ovary,13,0
+TCGA.13.0889,TCGA-13-0889-01,,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,GX,TUMOR FREE,Right,WHITE,0.3,Ovary,13,0
+TCGA.13.0890,TCGA-13-0890-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0891,TCGA-13-0891-01,Recurred/Progressed,Fine needle aspiration biopsy,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0899,TCGA-13-0899-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,13,0
+TCGA.13.0900,TCGA-13-0900-01,DiseaseFree,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.1,Ovary,13,0
+TCGA.13.0903,TCGA-13-0903-01,DiseaseFree,Tumor resection,Stage IV,G3,,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0905,TCGA-13-0905-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.3,Ovary,13,0
+TCGA.13.0906,TCGA-13-0906-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0908,TCGA-13-0908-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,0
+TCGA.13.0910,TCGA-13-0910-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.0911,TCGA-13-0911-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,13,0
+TCGA.13.1482,TCGA-13-1482-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G2,WITH TUMOR,,WHITE,0.4,Ovary,13,0
+TCGA.13.1485,TCGA-13-1485-01,Recurred/Progressed,Incisional Biopsy,Stage IV,G2,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,13,1
+TCGA.13.1492,TCGA-13-1492-01,,Fine needle aspiration biopsy,Stage IIIC,G3,TUMOR FREE,,WHITE,0.4,Ovary,13,0
+TCGA.13.1494,TCGA-13-1494-01,Recurred/Progressed,Incisional Biopsy,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.1495,TCGA-13-1495-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,13,0
+TCGA.13.1496,TCGA-13-1496-01,,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,13,1
+TCGA.13.1817,TCGA-13-1817-02,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,NA,Ovary,13,0
+TCGA.20.0987,TCGA-20-0987-01,Recurred/Progressed,Fine needle aspiration biopsy,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,20,1
+TCGA.20.0990,TCGA-20-0990-01,Recurred/Progressed,Fine needle aspiration biopsy,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,20,0
+TCGA.20.0996,TCGA-20-0996-01,DiseaseFree,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,20,0
+TCGA.20.1682,TCGA-20-1682-01,DiseaseFree,Tumor resection,Stage IIIC,GX,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,20,0
+TCGA.20.1683,TCGA-20-1683-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Right,WHITE,0.4,Ovary,20,0
+TCGA.23.1021,TCGA-23-1021-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Right,WHITE,0.5,Ovary,23,0
+TCGA.23.1022,TCGA-23-1022-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,23,0
+TCGA.23.1023,TCGA-23-1023-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,23,0
+TCGA.23.1028,TCGA-23-1028-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,23,0
+TCGA.23.1030,TCGA-23-1030-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.5,Ovary,23,0
+TCGA.23.1031,TCGA-23-1031-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,23,1
+TCGA.23.1109,TCGA-23-1109-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.8,Ovary,23,0
+TCGA.23.1110,TCGA-23-1110-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Right,WHITE,0.6,Ovary,23,0
+TCGA.23.1113,TCGA-23-1113-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Left,WHITE,0.8,Ovary,23,0
+TCGA.23.1114,TCGA-23-1114-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,23,0
+TCGA.23.1117,TCGA-23-1117-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,23,0
+TCGA.23.1118,TCGA-23-1118-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.7,Ovary,23,0
+TCGA.23.1119,TCGA-23-1119-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.6,Ovary,23,0
+TCGA.23.1122,TCGA-23-1122-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.5,Ovary,23,0
+TCGA.23.1123,TCGA-23-1123-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.6,Ovary,23,0
+TCGA.23.1124,TCGA-23-1124-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.6,Ovary,23,0
+TCGA.23.2072,TCGA-23-2072-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Right,WHITE,0.2,Ovary,23,0
+TCGA.23.2077,TCGA-23-2077-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.4,Ovary,23,0
+TCGA.23.2078,TCGA-23-2078-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,23,0
+TCGA.23.2079,TCGA-23-2079-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.6,Ovary,23,0
+TCGA.23.2081,TCGA-23-2081-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,23,0
+TCGA.23.2084,TCGA-23-2084-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Right,WHITE,0.5,Ovary,23,0
+TCGA.24.0968,TCGA-24-0968-01,,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.6,Ovary,24,1
+TCGA.24.0975,TCGA-24-0975-01,,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.7,Ovary,24,1
+TCGA.24.0979,TCGA-24-0979-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.0982,TCGA-24-0982-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,24,1
+TCGA.24.1104,TCGA-24-1104-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Left,WHITE,0.7,Ovary,24,0
+TCGA.24.1105,TCGA-24-1105-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,24,0
+TCGA.24.1436,TCGA-24-1436-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,24,1
+TCGA.24.1466,TCGA-24-1466-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1545,TCGA-24-1545-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.1546,TCGA-24-1546-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1548,TCGA-24-1548-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,1
+TCGA.24.1549,TCGA-24-1549-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1550,TCGA-24-1550-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.7,Ovary,24,0
+TCGA.24.1551,TCGA-24-1551-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.1552,TCGA-24-1552-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.8,Ovary,24,0
+TCGA.24.1553,TCGA-24-1553-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1555,TCGA-24-1555-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1557,TCGA-24-1557-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.1558,TCGA-24-1558-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.9,Ovary,24,1
+TCGA.24.1560,TCGA-24-1560-01,Recurred/Progressed,Tumor resection,Stage IIIC,G4,WITH TUMOR,Left,WHITE,0.5,Ovary,24,0
+TCGA.24.1562,TCGA-24-1562-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.1564,TCGA-24-1564-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1565,TCGA-24-1565-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,1
+TCGA.24.1567,TCGA-24-1567-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,24,1
+TCGA.24.1603,TCGA-24-1603-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.7,Ovary,24,0
+TCGA.24.1604,TCGA-24-1604-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,24,0
+TCGA.24.1614,TCGA-24-1614-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,24,0
+TCGA.24.1616,TCGA-24-1616-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.1852,TCGA-24-1852-02,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,NA,Ovary,24,0
+TCGA.24.1923,TCGA-24-1923-01,Recurred/Progressed,Incisional Biopsy,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,24,1
+TCGA.24.1924,TCGA-24-1924-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.1928,TCGA-24-1928-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,24,1
+TCGA.24.1930,TCGA-24-1930-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,24,0
+TCGA.24.2020,TCGA-24-2020-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.2023,TCGA-24-2023-01,Recurred/Progressed,Tumor resection,Stage IIIA,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.2026,TCGA-24-2026-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,1,Ovary,24,0
+TCGA.24.2027,TCGA-24-2027-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,24,0
+TCGA.24.2029,TCGA-24-2029-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,1
+TCGA.24.2030,TCGA-24-2030-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.5,Ovary,24,0
+TCGA.24.2033,TCGA-24-2033-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.7,Ovary,24,1
+TCGA.24.2035,TCGA-24-2035-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,24,0
+TCGA.24.2036,TCGA-24-2036-01,Recurred/Progressed,Tumor resection,Stage IIIA,G3,WITH TUMOR,,WHITE,0.4,Ovary,24,0
+TCGA.24.2038,TCGA-24-2038-01,Recurred/Progressed,Tumor resection,Stage IIIA,GB,WITH TUMOR,Right,WHITE,0.4,Ovary,24,0
+TCGA.24.2254,TCGA-24-2254-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.2260,TCGA-24-2260-01,Recurred/Progressed,Fine needle aspiration biopsy,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,0
+TCGA.24.2261,TCGA-24-2261-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,24,1
+TCGA.24.2262,TCGA-24-2262-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,24,1
+TCGA.24.2280,TCGA-24-2280-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.2288,TCGA-24-2288-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,24,1
+TCGA.24.2289,TCGA-24-2289-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.24.2295,TCGA-24-2295-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,24,0
+TCGA.24.2297,TCGA-24-2297-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,24,0
+TCGA.24.2298,TCGA-24-2298-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,24,0
+TCGA.25.1312,TCGA-25-1312-01,,Tumor resection,Stage IV,G3,,Left,WHITE,1,Ovary,25,1
+TCGA.25.1313,TCGA-25-1313-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,1.5,Ovary,25,0
+TCGA.25.1314,TCGA-25-1314-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,25,0
+TCGA.25.1315,TCGA-25-1315-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.9,Ovary,25,0
+TCGA.25.1316,TCGA-25-1316-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,1.5,Ovary,25,0
+TCGA.25.1317,TCGA-25-1317-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.5,Ovary,25,1
+TCGA.25.1318,TCGA-25-1318-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,25,0
+TCGA.25.1319,TCGA-25-1319-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,1,Ovary,25,0
+TCGA.25.1320,TCGA-25-1320-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,1,Ovary,25,0
+TCGA.25.1321,TCGA-25-1321-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,25,0
+TCGA.25.1322,TCGA-25-1322-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.8,Ovary,25,1
+TCGA.25.1323,TCGA-25-1323-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,25,1
+TCGA.25.1329,TCGA-25-1329-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.6,Ovary,25,1
+TCGA.25.1623,TCGA-25-1623-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,25,1
+TCGA.25.1625,TCGA-25-1625-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,25,0
+TCGA.25.1626,TCGA-25-1626-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,25,1
+TCGA.25.1627,TCGA-25-1627-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,25,1
+TCGA.25.1628,TCGA-25-1628-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,,WHITE,0.4,Ovary,25,1
+TCGA.25.1630,TCGA-25-1630-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.4,Ovary,25,0
+TCGA.25.1631,TCGA-25-1631-01,,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,25,1
+TCGA.25.1632,TCGA-25-1632-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,25,0
+TCGA.25.1633,TCGA-25-1633-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,25,0
+TCGA.25.1634,TCGA-25-1634-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.1,Ovary,25,0
+TCGA.25.1635,TCGA-25-1635-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,25,0
+TCGA.25.1870,TCGA-25-1870-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,25,1
+TCGA.25.1871,TCGA-25-1871-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.1,Ovary,25,0
+TCGA.25.1877,TCGA-25-1877-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,25,1
+TCGA.25.1878,TCGA-25-1878-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,25,0
+TCGA.25.2391,TCGA-25-2391-01,,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,25,0
+TCGA.25.2392,TCGA-25-2392-01,,Tumor resection,Stage IV,G3,,Bilateral,WHITE,0.3,Ovary,25,1
+TCGA.25.2393,TCGA-25-2393-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,25,0
+TCGA.25.2396,TCGA-25-2396-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,1,Ovary,25,1
+TCGA.25.2397,TCGA-25-2397-01,,Tumor resection,Stage IV,G3,,Bilateral,WHITE,0.7,Ovary,25,1
+TCGA.25.2398,TCGA-25-2398-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,25,0
+TCGA.25.2399,TCGA-25-2399-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,25,1
+TCGA.25.2400,TCGA-25-2400-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,25,0
+TCGA.25.2401,TCGA-25-2401-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.3,Ovary,25,1
+TCGA.25.2408,TCGA-25-2408-01,Recurred/Progressed,Tumor resection,Stage IV,G2,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,25,0
+TCGA.25.2409,TCGA-25-2409-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,25,0
+TCGA.29.1688,TCGA-29-1688-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,29,0
+TCGA.29.1690,TCGA-29-1690-01,,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.7,Ovary,29,0
+TCGA.29.1691,TCGA-29-1691-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.05,Ovary,29,0
+TCGA.29.1692,TCGA-29-1692-02,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Right,WHITE,NA,Ovary,29,0
+TCGA.29.1693,TCGA-29-1693-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.4,Ovary,29,0
+TCGA.29.1694,TCGA-29-1694-01,,Tumor resection,Stage IIIC,GX,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,29,0
+TCGA.29.1695,TCGA-29-1695-01,,Tumor resection,Stage IIIC,G2,,Left,WHITE,0.4,Ovary,29,0
+TCGA.29.1696,TCGA-29-1696-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Right,WHITE,0.3,Ovary,29,0
+TCGA.29.1697,TCGA-29-1697-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,29,0
+TCGA.29.1699,TCGA-29-1699-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.6,Ovary,29,0
+TCGA.29.1701,TCGA-29-1701-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.6,Ovary,29,1
+TCGA.29.1702,TCGA-29-1702-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.5,Ovary,29,1
+TCGA.29.1704,TCGA-29-1704-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,29,0
+TCGA.29.1705,TCGA-29-1705-02,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,NA,Ovary,29,1
+TCGA.29.1710,TCGA-29-1710-02,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,NA,Ovary,29,0
+TCGA.29.1762,TCGA-29-1762-01,Recurred/Progressed,Tumor resection,Stage IV,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,29,0
+TCGA.29.1764,TCGA-29-1764-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,29,0
+TCGA.29.1768,TCGA-29-1768-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,29,0
+TCGA.29.1770,TCGA-29-1770-02,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,NA,Ovary,29,0
+TCGA.29.1785,TCGA-29-1785-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,,Right,WHITE,0.4,Ovary,29,0
+TCGA.29.2414,TCGA-29-2414-02,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Left,WHITE,NA,Ovary,29,0
+TCGA.29.2425,TCGA-29-2425-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,TUMOR FREE,,WHITE,0.5,Ovary,29,0
+TCGA.29.2427,TCGA-29-2427-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.5,Ovary,29,0
+TCGA.29.2428,TCGA-29-2428-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Left,WHITE,0.4,Ovary,29,0
+TCGA.29.2429,TCGA-29-2429-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,29,1
+TCGA.29.2431,TCGA-29-2431-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,29,0
+TCGA.29.2432,TCGA-29-2432-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,29,1
+TCGA.30.1714,TCGA-30-1714-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,30,0
+TCGA.30.1718,TCGA-30-1718-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,30,0
+TCGA.30.1853,TCGA-30-1853-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,30,0
+TCGA.30.1855,TCGA-30-1855-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,,WHITE,0.4,Ovary,30,1
+TCGA.30.1856,TCGA-30-1856-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,30,1
+TCGA.30.1857,TCGA-30-1857-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,30,1
+TCGA.30.1860,TCGA-30-1860-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,30,0
+TCGA.30.1861,TCGA-30-1861-01,,Tumor resection,Stage IIIC,G3,,Bilateral,WHITE,0.4,Ovary,30,0
+TCGA.30.1862,TCGA-30-1862-01,,Tumor resection,Stage IV,G2,WITH TUMOR,,WHITE,NA,Ovary,30,1
+TCGA.30.1866,TCGA-30-1866-01,Recurred/Progressed,Tumor resection,Stage IV,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,30,0
+TCGA.30.1880,TCGA-30-1880-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,30,0
+TCGA.30.1887,TCGA-30-1887-01,,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.5,Ovary,30,0
+TCGA.30.1891,TCGA-30-1891-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,30,0
+TCGA.30.1892,TCGA-30-1892-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,30,0
+TCGA.31.1944,TCGA-31-1944-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,31,0
+TCGA.31.1956,TCGA-31-1956-01,DiseaseFree,Tumor resection,Stage IIIB,G3,WITH TUMOR,Left,WHITE,0.2,Ovary,31,0
+TCGA.36.1569,TCGA-36-1569-01,DiseaseFree,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,,Bilateral,WHITE,0.4,Ovary,36,0
+TCGA.36.1571,TCGA-36-1571-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.9,Ovary,36,1
+TCGA.36.2534,TCGA-36-2534-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.5,Ovary,36,0
+TCGA.57.1582,TCGA-57-1582-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.6,Ovary,57,0
+TCGA.57.1585,TCGA-57-1585-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,57,1
+TCGA.57.1993,TCGA-57-1993-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,57,0
+TCGA.59.2348,TCGA-59-2348-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,59,0
+TCGA.59.2351,TCGA-59-2351-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,59,0
+TCGA.59.2352,TCGA-59-2352-01,,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.4,Ovary,59,1
+TCGA.59.2354,TCGA-59-2354-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,59,0
+TCGA.59.2355,TCGA-59-2355-01,,Tumor resection,Stage IV,G3,WITH TUMOR,Right,WHITE,0.2,Ovary,59,1
+TCGA.59.2372,TCGA-59-2372-01,,Tumor resection,Stage IIIC,G2,,Bilateral,WHITE,0.5,Ovary,59,0
+TCGA.61.1724,TCGA-61-1724-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,61,1
+TCGA.61.1725,TCGA-61-1725-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.1728,TCGA-61-1728-01,Recurred/Progressed,Tumor resection,Stage IV,G3,TUMOR FREE,Bilateral,WHITE,0.2,Ovary,61,0
+TCGA.61.1733,TCGA-61-1733-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,61,0
+TCGA.61.1736,TCGA-61-1736-01,Recurred/Progressed,Excisional Biopsy,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.1737,TCGA-61-1737-01,DiseaseFree,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,TUMOR FREE,Bilateral,WHITE,0.2,Ovary,61,0
+TCGA.61.1740,TCGA-61-1740-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,61,1
+TCGA.61.1741,TCGA-61-1741-01,Recurred/Progressed,Tumor resection,Stage IIIB,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.1901,TCGA-61-1901-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,61,1
+TCGA.61.1906,TCGA-61-1906-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,61,0
+TCGA.61.1907,TCGA-61-1907-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.1913,TCGA-61-1913-01,DiseaseFree,Tumor resection,Stage IIIB,G3,TUMOR FREE,Right,WHITE,0.3,Ovary,61,0
+TCGA.61.1917,TCGA-61-1917-01,,Tumor resection,Stage IIIB,G3,,Bilateral,WHITE,0.1,Ovary,61,0
+TCGA.61.1918,TCGA-61-1918-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,1
+TCGA.61.1919,TCGA-61-1919-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.2009,TCGA-61-2009-01,Recurred/Progressed,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,61,0
+TCGA.61.2016,TCGA-61-2016-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.1,Ovary,61,1
+TCGA.61.2017,TCGA-61-2017-01,Recurred/Progressed,Tumor resection,Stage IIIC,G1,WITH TUMOR,Bilateral,WHITE,0.3,Ovary,61,0
+TCGA.61.2092,TCGA-61-2092-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.2094,TCGA-61-2094-01,DiseaseFree,Tumor resection,Stage IIIC,G3,TUMOR FREE,Bilateral,WHITE,0.3,Ovary,61,0
+TCGA.61.2095,TCGA-61-2095-01,Recurred/Progressed,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.2098,TCGA-61-2098-01,DiseaseFree,Tumor resection,Stage IIIC,G2,TUMOR FREE,Bilateral,WHITE,0.5,Ovary,61,0
+TCGA.61.2101,TCGA-61-2101-01,,Tumor resection,Stage IIIC,G2,WITH TUMOR,Bilateral,WHITE,0.4,Ovary,61,0
+TCGA.61.2102,TCGA-61-2102-01,,Tumor resection,Stage IIIC,G3,WITH TUMOR,Right,WHITE,0.3,Ovary,61,1
+TCGA.61.2109,TCGA-61-2109-01,Recurred/Progressed,Cytology (e.g. Peritoneal or pleural fluid),Stage IIIC,G3,WITH TUMOR,Bilateral,WHITE,0.2,Ovary,61,1
+TCGA.61.2110,TCGA-61-2110-01,Recurred/Progressed,Tumor resection,Stage IIIC,,WITH TUMOR,Bilateral,WHITE,0.1,Ovary,61,0
+TCGA.61.2111,TCGA-61-2111-01,Recurred/Progressed,Tumor resection,Stage IV,G3,WITH TUMOR,Left,WHITE,0.3,Ovary,61,0

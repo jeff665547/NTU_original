@@ -1,0 +1,13 @@
+Disease,Phenotype,Sample size,Adjacent,,Platform,Pathway,Number of unique probes in the pathway
+BreastA,Cancer,13,Yes,,GPL96,PI3K-AKT,
+BreastA,Normal,13,Yes,,,,
+ColorectalB,Cancer,11,Yes,,,,
+ColorectalB,Normal,11,Yes,,,,
+LeukemiaA,Cancer,19,No,,,,
+LeukemiaA,Normal,10,No,,,,
+LungA,Cancer,21,Yes,,,,
+LungA,Normal,21,Yes,,,,
+LungB,Cancer,47,Yes,,,,
+LungB,Normal,47,Yes,,,,
+OvarianA,Cancer,47,No,,,,
+OvarianA,Normal,116,No,,,,

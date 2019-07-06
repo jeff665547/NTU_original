@@ -1,0 +1,4 @@
+Public on Feb 20, 2008
+USA, Rockville
+
+Series family SOFT file : !Sample_data_processing = Gene expression data were processed and normalized using Bioconductor Affy package, based on the Robust Multichip Average (RMA) method5 for single-channel Affymetrix chips

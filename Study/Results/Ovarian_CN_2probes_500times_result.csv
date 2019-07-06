@@ -1,0 +1,5 @@
+"","countM","countH","countR","countN","countHR","countHN","countRN","count2","countHRN"
+"OvarianA_mTOR_mean_unique_CN",0.578,0.472,0.612,0.538,0.428,0.462,0.492,0.538,0.422
+"OvarianA_Jak_STAT_mean_unique_CN",0.75,0.62,0.788,0.69,0.608,0.616,0.676,0.684,0.608
+"OvarianA_p53_mean_unique_CN",0.594,0.48,0.634,0.558,0.452,0.476,0.518,0.546,0.45
+"OvarianA_PI3K_Akt_mean_unique_CN",0.656,0.564,0.72,0.63,0.54,0.56,0.6,0.62,0.54

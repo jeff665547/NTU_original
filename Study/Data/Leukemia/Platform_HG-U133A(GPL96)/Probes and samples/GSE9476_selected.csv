@@ -1,0 +1,29 @@
+normal,GSM240430,PB_DON005,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240431,PB_DON034,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240432,PB_DON040,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240433,PB_DON046,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240494,PB_DON056,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240495,PB_DON058,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240496,PB_DON086,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240497,PB_DON088,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240498,PB_DON097,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+normal,GSM240499,PB_DON102,Peripheral Blood Mononuclear Cells,Peripheral Blood Mononuclear Cells,,,,,,,
+tumor,GSM239345,FHCRCAML72,tumor,Diagnosis: MDS/AML,Blast %: 77,Source: PB,Cyto: Complex,FLT3 ITD: 0,FLT3 TKD: 0,,gender: M
+tumor,GSM239346,FHCRCAML482,tumor,Diagnosis: AML M5,Blast %: 93,Source: PB,Cyto: Normal,FLT3 ITD: 0,FLT3 TKD: 0,,gender: M
+tumor,GSM239348,FHCRCAML723,tumor,Diagnosis: AML M0,Blast %: 94,Source: PB,Cyto: tris4,FLT3 ITD: 0,FLT3 TKD: 0,,gender: F
+tumor,GSM239363,FHCRCAML1038,tumor,Diagnosis: AML M5,Blast %: 97,Source: PB,Cyto: Normal,FLT3 ITD: 0,FLT3 TKD: 1,,gender: F
+tumor,GSM239460,FHCRCAML1818,tumor,Diagnosis: MDS/AML,Blast %: 90,Source: PB,Cyto: tris8,FLT3 ITD: 1,FLT3 TKD: 1,,gender: F
+tumor,GSM239485,FHCRCAML1970,tumor,Diagnosis: MDS/AML,Blast %: 85,Source: PB,Cyto: Complex,FLT3 ITD: 1,FLT3 TKD: 0,,gender: M
+tumor,GSM239488,FHCRCAML2557,tumor,Diagnosis: AML M5,Blast %: 96,Source: PB,Cyto: No Data,FLT3 ITD: 1,FLT3 TKD: 0,,gender: M
+tumor,GSM239490,FHCRCAML_2762,tumor,Diagnosis: MDS/AML,Blast %: 87,Source: PB,Cyto: Normal,FLT3 ITD: 0,FLT3 TKD: 0,,gender: M
+tumor,GSM239491,FHCRCAML2852,tumor,Diagnosis: MDS/AML,Blast %: 72,Source: PB,Cyto: Complex,FLT3 ITD: 0,FLT3 TKD: 0,,gender: F
+tumor,GSM239493,FHCRCAML4500,tumor,Diagnosis:AML M2,Blast %: 87,Source: PB,"Cyto: INV9, INV14",FLT3 ITD: No Data,FLT3 TKD: No Data,,gender: M
+tumor,GSM239494,FHCRCAML4653,tumor,Diagnosis: AML M2,Blast %: 70,Source: PB,Cyto: Normal,FLT3 ITD: No Data,FLT3 TKD: No Data,,gender: M
+tumor,GSM239495,FHCRCAML7209,tumor,Diagnosis: AML M1,Blast %: 89,Source: PB,Cyto: Normal,FLT3 ITD: 1,FLT3 TKD: 0,,gender: F
+tumor,GSM239496,FHCRCAML7216,tumor,Diagnosis: MDS/AML,Blast %: 96,Source: PB,Cyto: No Data,FLT3 ITD: 0,FLT3 TKD: 0,,gender: F
+tumor,GSM239498,FHCRCAML16907,tumor,Diagnosis: AML M5,Blast %: 75,Source: PB,Cyto: Normal,FLT3 ITD: 0,FLT3 TKD: No Data,,gender: M
+tumor,GSM239516,FHCRCAML16908,tumor,Diagnosis: AML M5,Blast %: 71,Source: PB,Cyto: Normal,FLT3 ITD: 0,FLT3 TKD: No Data,,gender: M
+tumor,GSM239580,FHCRCAML169014,tumor,Diagnosis: AML M4,Blast %: 75,Source: PB,Cyto: tris8,FLT3 ITD: 1,FLT3 TKD: No data,,gender: M
+tumor,GSM240405,FHCRCAML169016,tumor,Diagnosis: ET/AML,Blast %: 70,Source: PB,Cyto: Complex,FLT3 ITD: 0,FLT3 TKD: No data,,gender: M
+tumor,GSM240406,FHCRCAML169017,tumor,Diagnosis: MDS/AML,Blast %: 71,Source: PB,Cyto: t(15:17),FLT3 ITD: 1,FLT3 TKD: No Data,,gender: F
+tumor,GSM240429,FHCRCAML169020,tumor,Diagnosis: AML M1,Blast %: 93,Source: PB,Cyto: t(2;12)del16,FLT3 ITD: 1,FLT3 TKD: No data,,gender: M

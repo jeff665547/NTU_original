@@ -1,0 +1,388 @@
+Public on Feb 27, 2006
+USA Boston
+GSM93997
+Series family SOFT file : !Sample_data_processing = RMA generated expression value
+
+Smoker NOT diagnosed with cancer Sample 283
+GSM94019
+Smoker diagnosed with cancer Sample 57
+GSM94020
+Smoker diagnosed with cancer Sample 62
+GSM94021
+Smoker diagnosed with cancer Sample 130
+GSM94022
+Smoker diagnosed with cancer Sample 142
+GSM94023
+Smoker diagnosed with cancer Sample 139
+GSM94024
+Smoker diagnosed with cancer Sample 122
+GSM94025
+Smoker diagnosed with cancer Sample 136
+GSM94026
+Smoker diagnosed with cancer Sample 144
+GSM94027
+Smoker diagnosed with cancer Sample 133
+GSM94028
+Smoker diagnosed with cancer Sample 126
+GSM94029
+Smoker diagnosed with cancer Sample 123
+GSM94030
+Smoker diagnosed with cancer Sample 138
+GSM94031
+Smoker diagnosed with cancer Sample 146
+GSM94032
+Smoker diagnosed with cancer Sample 114
+GSM94033
+Smoker diagnosed with cancer Sample 115
+GSM94034
+Smoker diagnosed with cancer Sample 135
+GSM94035
+Smoker diagnosed with cancer Sample 137
+GSM94036
+Smoker diagnosed with cancer Sample 145
+GSM94037
+Smoker diagnosed with cancer Sample 148
+GSM94038
+Smoker diagnosed with cancer Sample 117
+GSM94039
+Smoker diagnosed with cancer Sample 204
+GSM94040
+Smoker diagnosed with cancer Sample 206
+GSM94041
+Smoker diagnosed with cancer Sample 152
+GSM94042
+Smoker diagnosed with cancer Sample 155
+GSM94043
+Smoker diagnosed with cancer Sample 181
+GSM94044
+Smoker diagnosed with cancer Sample 198
+GSM94045
+Smoker diagnosed with cancer Sample 188
+GSM94046
+Smoker diagnosed with cancer Sample 193
+GSM94047
+Smoker diagnosed with cancer Sample 174
+GSM94048
+Smoker diagnosed with cancer Sample 154
+GSM94049
+Smoker diagnosed with cancer Sample 197
+GSM94050
+Smoker diagnosed with cancer Sample 159
+GSM94051
+Smoker diagnosed with cancer Sample 190
+GSM94052
+Smoker diagnosed with cancer Sample 156
+GSM94053
+Smoker diagnosed with cancer Sample 192
+GSM94054
+Smoker diagnosed with cancer Sample 199
+GSM94055
+Smoker diagnosed with cancer Sample 160
+GSM94056
+Smoker diagnosed with cancer Sample 168
+GSM94057
+Smoker diagnosed with cancer Sample 184
+GSM94058
+Smoker diagnosed with cancer Sample 163
+GSM94059
+Smoker diagnosed with cancer Sample 177
+GSM94060
+Smoker diagnosed with cancer Sample 178
+GSM94061
+Smoker diagnosed with cancer Sample 175
+GSM94062
+Smoker diagnosed with cancer Sample 187
+GSM94063
+Smoker diagnosed with cancer Sample 150
+GSM94064
+Smoker diagnosed with cancer Sample 280
+GSM94065
+Smoker diagnosed with cancer Sample 273
+GSM94066
+Smoker diagnosed with cancer Sample 267
+GSM94067
+Smoker diagnosed with cancer Sample 266
+GSM94068
+Smoker diagnosed with cancer Sample 279
+GSM94069
+Smoker diagnosed with cancer Sample 258
+GSM94070
+Smoker diagnosed with cancer Sample 281
+GSM94071
+Smoker diagnosed with cancer Sample 269
+GSM94072
+Smoker diagnosed with cancer Sample 255
+GSM94073
+Smoker diagnosed with cancer Sample 275
+GSM94074
+Smoker diagnosed with cancer Sample 257
+GSM94075
+Smoker diagnosed with cancer Sample 270
+GSM94077
+Smoker NOT diagnosed with cancer Sample 67
+GSM94078
+Smoker NOT diagnosed with cancer Sample 63
+GSM94079
+Smoker NOT diagnosed with cancer Sample 71
+GSM94080
+Smoker NOT diagnosed with cancer Sample 80
+GSM94081
+Smoker NOT diagnosed with cancer Sample 68
+GSM94082
+Smoker NOT diagnosed with cancer Sample 79
+GSM94083
+Smoker NOT diagnosed with cancer Sample 99
+GSM94084
+Smoker NOT diagnosed with cancer Sample 87
+GSM94085
+Smoker NOT diagnosed with cancer Sample 88
+GSM94086
+Smoker NOT diagnosed with cancer Sample 77
+GSM94087
+Smoker NOT diagnosed with cancer Sample 72
+GSM94088
+Smoker NOT diagnosed with cancer Sample 82
+GSM94089
+Smoker NOT diagnosed with cancer Sample 84
+GSM94090
+Smoker NOT diagnosed with cancer Sample 74
+GSM94091
+Smoker NOT diagnosed with cancer Sample 85
+GSM94092
+Smoker NOT diagnosed with cancer Sample 95
+GSM94093
+Smoker NOT diagnosed with cancer Sample 83
+GSM94094
+Smoker NOT diagnosed with cancer Sample 75
+GSM94095
+Smoker NOT diagnosed with cancer Sample 97
+GSM94096
+Smoker NOT diagnosed with cancer Sample 61
+GSM94097
+Smoker NOT diagnosed with cancer Sample 58
+GSM94098
+Smoker NOT diagnosed with cancer Sample 92
+GSM94099
+Smoker NOT diagnosed with cancer Sample 81
+GSM94100
+Smoker NOT diagnosed with cancer Sample 69
+GSM94101
+Smoker NOT diagnosed with cancer Sample 98
+GSM94102
+Smoker NOT diagnosed with cancer Sample 56
+GSM94103
+Smoker NOT diagnosed with cancer Sample 89
+GSM94104
+Smoker NOT diagnosed with cancer Sample 73
+GSM94105
+Smoker NOT diagnosed with cancer Sample 86
+GSM94106
+Smoker NOT diagnosed with cancer Sample 76
+GSM94107
+Smoker NOT diagnosed with cancer Sample 124
+GSM94108
+Smoker NOT diagnosed with cancer Sample 104
+GSM94109
+Smoker NOT diagnosed with cancer Sample 131
+GSM94110
+Smoker NOT diagnosed with cancer Sample 102
+GSM94111
+Smoker NOT diagnosed with cancer Sample 143
+GSM94112
+Smoker NOT diagnosed with cancer Sample 121
+GSM94113
+Smoker NOT diagnosed with cancer Sample 107
+GSM94114
+Smoker NOT diagnosed with cancer Sample 116
+GSM94115
+Smoker NOT diagnosed with cancer Sample 162
+GSM94116
+Smoker NOT diagnosed with cancer Sample 106
+GSM94117
+Smoker NOT diagnosed with cancer Sample 141
+GSM94118
+Smoker NOT diagnosed with cancer Sample 125
+GSM94119
+Smoker NOT diagnosed with cancer Sample 157
+GSM94120
+Smoker NOT diagnosed with cancer Sample 110
+GSM94121
+Smoker NOT diagnosed with cancer Sample 147
+GSM94122
+Smoker NOT diagnosed with cancer Sample 128
+GSM94123
+Smoker NOT diagnosed with cancer Sample 161
+GSM94124
+Smoker NOT diagnosed with cancer Sample 120
+GSM94125
+Smoker NOT diagnosed with cancer Sample 185
+GSM94126
+Smoker NOT diagnosed with cancer Sample 134
+GSM94127
+Smoker NOT diagnosed with cancer Sample 176
+GSM94128
+Smoker NOT diagnosed with cancer Sample 112
+GSM94129
+Smoker NOT diagnosed with cancer Sample 109
+GSM94130
+Smoker NOT diagnosed with cancer Sample 172
+GSM94131
+Smoker NOT diagnosed with cancer Sample 173
+GSM94132
+Smoker NOT diagnosed with cancer Sample 151
+GSM94133
+Smoker NOT diagnosed with cancer Sample 101
+GSM94134
+Smoker NOT diagnosed with cancer Sample 196
+GSM94135
+Smoker NOT diagnosed with cancer Sample 140
+GSM94136
+Smoker NOT diagnosed with cancer Sample 195
+GSM94137
+Smoker NOT diagnosed with cancer Sample 113
+GSM94138
+Smoker NOT diagnosed with cancer Sample 246
+GSM94139
+Smoker NOT diagnosed with cancer Sample 240
+GSM94140
+Smoker NOT diagnosed with cancer Sample 238
+GSM94141
+Smoker NOT diagnosed with cancer Sample 225
+GSM94142
+Smoker NOT diagnosed with cancer Sample 241
+GSM94143
+Smoker NOT diagnosed with cancer Sample 207
+GSM94144
+Smoker NOT diagnosed with cancer Sample 250
+GSM94145
+Smoker NOT diagnosed with cancer Sample 226
+GSM94146
+Smoker NOT diagnosed with cancer Sample 220
+GSM94147
+Smoker NOT diagnosed with cancer Sample 247
+GSM94148
+Smoker NOT diagnosed with cancer Sample 223
+GSM94155
+Smoker diagnosed with cancer Sample 203
+GSM94156
+Smoker diagnosed with cancer Sample 200
+GSM94157
+Smoker diagnosed with cancer Sample 202
+GSM94160
+Smoker diagnosed with cancer Sample 237
+GSM94161
+Smoker diagnosed with cancer Sample 234
+GSM94162
+Smoker diagnosed with cancer Sample 239
+GSM94163
+Smoker diagnosed with cancer Sample 208
+GSM94164
+Smoker diagnosed with cancer Sample 212
+GSM94165
+Smoker diagnosed with cancer Sample 219
+GSM94166
+Smoker diagnosed with cancer Sample 214
+GSM94167
+Smoker diagnosed with cancer Sample 235
+GSM94168
+Smoker diagnosed with cancer Sample 222
+GSM94169
+Smoker diagnosed with cancer Sample 221
+GSM94170
+Smoker diagnosed with cancer Sample 233
+GSM94171
+Smoker diagnosed with cancer Sample 213
+GSM94172
+Smoker diagnosed with cancer Sample 236
+GSM94173
+Smoker diagnosed with cancer Sample 211
+GSM94174
+Smoker diagnosed with cancer Sample 243
+GSM94175
+Smoker diagnosed with cancer Sample 231
+GSM94176
+Smoker diagnosed with cancer Sample 209
+GSM94177
+Smoker diagnosed with cancer Sample 216
+GSM94178
+Smoker diagnosed with cancer Sample 229
+GSM98767
+Smoker diagnosed with cancer Sample 274
+GSM98768
+Smoker diagnosed with cancer Sample 271
+GSM98769
+Smoker diagnosed with cancer Sample 328
+GSM98770
+Smoker diagnosed with cancer Sample 322
+GSM98771
+Smoker diagnosed with cancer Sample 315
+GSM98772
+Smoker diagnosed with cancer Sample 325
+GSM98773
+Smoker diagnosed with cancer Sample 290
+GSM98774
+Smoker diagnosed with cancer Sample 297
+GSM98775
+Smoker diagnosed with cancer Sample 252
+GSM98776
+Smoker diagnosed with cancer Sample 228
+GSM98777
+Smoker diagnosed with cancer Sample 299
+GSM98778
+Smoker diagnosed with cancer Sample 308
+GSM98779
+Smoker diagnosed with cancer Sample 215
+GSM98780
+Smoker diagnosed with cancer Sample 201
+GSM98781
+Smoker diagnosed with cancer Sample 302
+GSM98782
+Smoker diagnosed with cancer Sample 312
+GSM98783
+Smoker diagnosed with cancer Sample 321
+GSM98784
+Smoker diagnosed with cancer Sample 285
+GSM98785
+Smoker NOT diagnosed with cancer Sample 309
+GSM98786
+Smoker NOT diagnosed with cancer Sample 282
+GSM98787
+Smoker NOT diagnosed with cancer Sample 307
+GSM98788
+Smoker NOT diagnosed with cancer Sample 263
+GSM98789
+Smoker NOT diagnosed with cancer Sample 262
+GSM98790
+Smoker NOT diagnosed with cancer Sample 119
+GSM98791
+Smoker NOT diagnosed with cancer Sample 244
+GSM98792
+Smoker NOT diagnosed with cancer Sample 292
+GSM98793
+Smoker NOT diagnosed with cancer Sample 301
+GSM98794
+Smoker NOT diagnosed with cancer Sample 300
+GSM98795
+Smoker NOT diagnosed with cancer Sample 304
+GSM98796
+Smoker NOT diagnosed with cancer Sample 286
+GSM98797
+Smoker NOT diagnosed with cancer Sample 326
+GSM98798
+Smoker NOT diagnosed with cancer Sample 316
+GSM98799
+Smoker NOT diagnosed with cancer Sample 265
+GSM98800
+Smoker NOT diagnosed with cancer Sample 296
+GSM98801
+Smoker NOT diagnosed with cancer Sample 317
+GSM98871
+Smoker with suspect lung cancer Sample 294
+GSM98872
+Smoker with suspect lung cancer Sample 251
+GSM98873
+Smoker with suspect lung cancer Sample 180
+GSM98874
+Smoker with suspect lung cancer Sample 179
+GSM98875
+Smoker with suspect lung cancer Sample 295
